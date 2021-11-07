@@ -1,12 +1,8 @@
 package animals;
 
-public class SmallHerbivore extends Animal{
+public class SmallHerbivore extends Animal {
     public SmallHerbivore(String name) {
-        super(name);
-    }
-
-    @Override
-    public AnimalTypes getAviaryType() {
-        return AnimalTypes.SMALL_HERBIVORE;
+        super(name, AnimalSizes.SMALL, AnimalTypes.HERBIVORE);
     }
 }
+
