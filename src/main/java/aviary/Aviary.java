@@ -8,7 +8,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
 public class Aviary<T extends Animal> {
     private AnimalTypes type;
     private AnimalSizes size;
@@ -31,10 +30,12 @@ public class Aviary<T extends Animal> {
     }
 
     public void removeAnimal(String id) {
+
         animals.remove(id);
     }
 
     public Collection<T> getAnimals() {
+
         return animals.values();
     }
 
@@ -45,6 +46,7 @@ public class Aviary<T extends Animal> {
     }
 
     public void valuesAnimals() {
+
         System.out.println(animals.values());
     }
 }
