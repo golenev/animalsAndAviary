@@ -1,6 +1,6 @@
 package animals;
 
-public class Elephant extends BigHerbivore {
+public class Elephant extends Herbivore {
     public Elephant(String name) {
         super(name);
     }

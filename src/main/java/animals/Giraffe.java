@@ -1,6 +1,6 @@
 package animals;
 
-public class Giraffe extends BigHerbivore {
+public class Giraffe extends Herbivore {
     @Override
     public String toString() {
         return super.toString() + " Я жираф.";

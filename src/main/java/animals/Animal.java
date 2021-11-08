@@ -23,12 +23,9 @@ public class Animal {
         return size;
     }
 
-    public Animal(String name, AnimalSizes size, AnimalTypes type) {
-
+    public Animal(String name) {
         this.name = name;
-        this.size = size;
-        this.type = type;
-    }
+            }
 
     public String getId() {
         return name;

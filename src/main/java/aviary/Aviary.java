@@ -26,9 +26,6 @@ public class Aviary<T extends Animal> {
     }
 
     public void addAnimal(T animal) {
-
-        if (animal.getType() != this.type || animal.getSize() != this.size)
-            throw new UnsupportedOperationException("Несовместимые животные!");
         String id = animal.getId();
         animals.put(id, animal);
     }

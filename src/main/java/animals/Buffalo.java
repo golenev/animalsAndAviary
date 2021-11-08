@@ -1,6 +1,6 @@
 package animals;
 
-public class Buffalo extends BigHerbivore {
+public class Buffalo extends Herbivore {
 
     @Override
     public String toString() {
