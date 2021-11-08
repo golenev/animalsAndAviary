@@ -40,7 +40,8 @@ public class Main {
         forBigHerbivore.printAnimals();
         System.out.println("И в конце пытаемся добавлить животное не туда");
         Thread.sleep(1500);
-       // forBigHerbivore.addAnimal(new Lion("Leva"));
+       // forBigHerbivore.addAnimal(new Lion("Vyacheslav"));
+       // forBigPredators.addAnimal(new Rabbit("Niko"));
 
 
 
